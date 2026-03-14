@@ -1,1 +1,23 @@
 /* Add CSS Styling */
+p {
+    color: black;
+    background-color: lightpink;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.bigger
+{
+    font-size: 24px;
+}
+.alert
+{
+    color: blue;
+    font-size: 36px;
+}
+.highlight
+{
+    color: black;
+    background-color: rgb(84, 234, 84);
+    font-weight: bold;
+    font-weight: 24px;
+}
