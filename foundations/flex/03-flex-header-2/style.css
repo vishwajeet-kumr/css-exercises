@@ -9,10 +9,18 @@ body {
 }
 
 .header {
+  justify-content: space-between;
+  display: flex;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
 }
+.left, .right{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
 
 .profile-image {
   background: rebeccapurple;
@@ -30,6 +38,8 @@ body {
 }
 
 button {
+
+  display: flex;
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
@@ -40,9 +50,15 @@ button {
 a {
   /* this removes the line under our links */
   text-decoration: none;
+ 
   color: rebeccapurple;
+ 
 }
 
 ul {
   list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
 }
